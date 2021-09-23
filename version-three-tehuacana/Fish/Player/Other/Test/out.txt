@@ -1,0 +1,559 @@
+=================================== i = 0 ======================
+((0, 0), (1, 0))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac372d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac37e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac37dc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac395f0>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac3d780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac3d730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac40be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac40870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac40e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac43f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac43f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabc1050>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebac46fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabc5140>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabc1f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabc8140>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabc8be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabc8b40>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabcad70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabcad20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabcd820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabcde10>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabd1d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabd1be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabd4e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabd4be0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabd8d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabd8be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabdaeb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabdac30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabdee10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabdec30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabe0f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabe0c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabe4e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabe4c80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabe6fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabe6cd0>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabeae10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabead70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabed870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabedeb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf0690>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf4640>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf45a0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf6820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf6780>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf9a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabf9960>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabfcb90>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabff7d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabff6e0>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab82be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab82b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab84eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab84c80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab89b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab898c0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab8c690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab8c640>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab8cf00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab8fbe0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab93410>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab93e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab93dc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab96aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab993c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab99dc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab99d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab9caf0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba02d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba0c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba3280>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba5050>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba3fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba5fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba5eb0>]
+max, n = 1: 7
+min, n = 2: 3
+3
+=================================== i = 1 ======================
+((0, 0), (2, 1))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba8d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaba8d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabab8c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebababf00>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabb2280>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabafeb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabb2b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabb5b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabb59b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabb9cd0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabbc140>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabb9f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabbf1e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebabbfbe0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab42280>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab42c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab45320>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab45d20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab483c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab48dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab4c3c0>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab4e190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab4cfa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab4eaa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab51820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab516e0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab55730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab555a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab55fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab57fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab5b780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab5b5f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab5bf00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab5e640>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab617d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab61640>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab61f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab64690>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab68820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab68690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab6a960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab6a6e0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab6e8c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab6e6e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab71a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab71730>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab74a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab74870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab76be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab769b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab7ac80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab7a910>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab7e910>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab7e820>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab00af0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab00a00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab03cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab03be0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab06eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab06dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab0c0f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab09fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab0f230>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab11280>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab0ff00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab11b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab15910>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab15780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab15d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab19c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab1d1e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab1dbe0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab1db90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab20730>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab20f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab20eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab23eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab23f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab26eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab26e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab29eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab29f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab2cf00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab2ceb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab2ff00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab2ff50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab32f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab32f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab36f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab36fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab39e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab39e10>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab3ce10>]
+max, n = 1: 7
+min, n = 2: 3
+3
+=================================== i = 2 ======================
+((2, 0), (1, 0))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab3fc30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebab3fb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaac1730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaac1d70>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaac6cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaac6c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaac8730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaac8d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaacc4b0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad0500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad0f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad25a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad2fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad5690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad55a0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad8690>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaadb190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaad8f00>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaade320>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaadedc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaded20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaae2c30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaae5370>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaae5d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaae5be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaae8a50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaeb230>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaae8f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaebaa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaebf00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaf12d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaeeeb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaf1af0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaf5b40>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaf8320>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaf8d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaf8b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaafbb90>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaafe320>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaafedc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaafecd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa81eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa81af0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa85b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa85aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa87d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa87c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa8afa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa8ae60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa90140>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa90d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa90be0>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa95190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa92f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa95b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa99a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa99780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa99dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa9dc80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa9dbe0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa9fc30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa9fbe0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaa3a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaa3960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaa69b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaa6f50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaaa870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaaa7d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaad870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaaadfa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab0780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab06e0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab3730>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab6500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab6f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab6e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaab9a50>]
+max, n = 1: 7
+min, n = 2: 3
+3
+=================================== i = 3 ======================
+((2, 0), (0, 1))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaabd280>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaabddc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaabdd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa40e60>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa44690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa44780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa46870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa468c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa46e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa497d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa49fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa4c730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa4cf00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa50e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa50dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa53f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa53e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa56fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa56f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa5c0a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa59fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa5f190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa5cf00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa62230>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa62c30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa66230>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa66cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa66be0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa68d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa68c80>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa6e0a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa6eb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa6ec30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa71820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa71870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa71e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa75500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa75c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa79e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa79cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa7bfa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa7bd20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa7feb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa7fd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa01780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa01d70>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa05f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa05d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa087d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa08dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa0bf50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa0bdc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa0e820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa0ee10>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa14050>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa11e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa14870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa14e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa1b0a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa18e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa1b8c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa1beb0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa210f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa1eeb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa21910>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa21f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa27140>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa24f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa27960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa27f50>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa2d230>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa2dd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa2ddc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa30b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa30be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa34e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa34b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa37e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa37aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa3ba50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa3b960>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa3dc30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6ebaa3db40>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9c0e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9c0d20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9c6050>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9c3f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9c9280>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9c9c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9cc460>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9cce60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9cf5a0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d21e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9cff00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d53c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d5dc0>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d88c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d89b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d9a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d9aa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9d9f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ddf00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ddd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e2c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e2960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e2f50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e5cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e5c80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e8c80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9e8cd0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9eda50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9eda00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9efa00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9efa50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9f3a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9f39b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9f5a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9f5a50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9f9a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9f9a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9fba50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9fbaa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ffaf0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ffa50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba982af0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba982aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba986b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba986aa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba988b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba988af0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba98ca50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba98c9b0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba98ea00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9917d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba991730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba994780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba994d20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba999550>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba999f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba999eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba99bbe0>]
+max, n = 1: 7
+min, n = 2: 3
+3
+=================================== i = 4 ======================
+((3, 0), (1, 0))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba99f500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba99f460>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba99ffa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9a1690>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9a57d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9a5730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9a8c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9a8870>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ab960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ab8c0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9aea00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9ae960>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9b1a50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9b4550>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9b4f50>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9b7640>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9b75a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9b7f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9bd190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9baf50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9bd9b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9bdf50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba940eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba940cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba944f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba944cd0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba948e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba948be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba94af50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba94ac30>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba94ed20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba94ec30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba950730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba950d70>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba954eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba954dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba95a0f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba957fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba95d280>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba95de60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba95dd20>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba962230>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba962cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba962c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba966b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba966870>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9697d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba969730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba96c780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba96cd20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba970550>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba970f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba970eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba972aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba976190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba972eb0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97a140>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97aeb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97ae10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97ce60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97ce10>]
+max, n = 1: 7
+min, n = 2: 3
+3
+=================================== i = 5 ======================
+((3, 0), (2, 1))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97fc30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba97fb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba902730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba902d70>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba906e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba906f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9099b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba909eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba90c7d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba90cf50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba90ff00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba90fe60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba916050>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba913f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9190f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba916fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba91c190>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba919f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba91f230>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba91fc30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba922230>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba922d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba922e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9248c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba924eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba928d70>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba92c5a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba92cfa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba92cdc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba92fe10>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba9325f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba932410>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba932e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba935e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba939640>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba939460>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba939e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba93beb0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba93f690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba93f4b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba93feb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8c1f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8c56e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8c5500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8c5f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8c7f50>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8cb5f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8cb6e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8cea50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8ce7d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8cef50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8d1730>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8d4730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8d4640>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8d7960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8d7820>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8dab40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8daa00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8ddd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8ddbe0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e0f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e0dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e60a0>]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e6dc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e6eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e8960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8e8f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8ecdc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8ecb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f0aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f0fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f0f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f3f50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f3fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f6d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8f6cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8fad20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8facd0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8fdd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8fdc80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba880d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba880cd0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba884d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba884cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba886d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba886d20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba88adc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba88ad20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba88cdc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba88cd70>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba890cd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba890c30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba893c80>]
+max, n = 1: 7
+min, n = 2: 3
+3
+=================================== i = 6 ======================
+((3, 1), (2, 2))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8969b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba896910>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba898dc0>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba89d410>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba89df00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba89dfa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba89fd70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba89fb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8a3e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8a3aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8a69b0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8a9410>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8a9e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8ac8c0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8af320>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8afd20>]
+MOVES AT n=0
+[]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8b30a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8b3b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8b3c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8b6a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8b6820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8b6e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8bacd0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8be140>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8bec80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba840870>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba843280>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba843aa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba845320>]
+MOVES AT n=0
+[]
+max, n = 1: 7
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba845d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba845e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba848960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba848f00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba84ce10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba84cb40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba850a00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba850e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba850dc0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba853eb0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba853e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba856fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba856f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba85d0a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba85afa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba860140>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba85df00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8631e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba863b90>]
+MOVES AT n=0
+[]
+max, n = 1: 8
+min, n = 2: 7
+7
+=================================== i = 7 ======================
+((3, 1), (1, 2))
+MOVES AT n=2
+[]
+min, n = 2: inf
+inf
+=================================== i = 8 ======================
+((3, 1), (2, 1))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba866a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba866960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba868e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba868b40>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba86ca00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba86caf0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba86ed20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba86eb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8739b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba873fa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba877500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba877f00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8795f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba879500>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba87c690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba87c5a0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba87f730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba87f640>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8027d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8026e0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba805870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba805780>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba809a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba809af0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba80bd20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba80bb90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba80f9b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba80ffa0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba813780>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8135a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba813fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba816d70>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba81a500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba81af00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba81ad20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba81db40>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba820320>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba820d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba820b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba823b90>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba8263c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba826dc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba826b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba82ac30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba82d3c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba82ddc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba82dbe0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba830c30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba833410>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba833e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba833c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba836c80>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba839320>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba839410>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba839e60>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba83c500>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba83cc80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c0eb0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c3460>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c3e60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c6690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c6550>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c8870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7c8730>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7cba50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7cb910>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7cec30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7ceaf0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7d1e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7d1cd0>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7d70f0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7d7e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7d7c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7dab40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7da870>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7dae60>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7dec80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7dec30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7e1c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7e1c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7e5a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7e59b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7e7a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7e79b0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7eba00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7eb960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7eea00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7ee9b0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7f2a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7f29b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7f4a50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7f4a00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7f8aa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7f8a00>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7faaa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7faa50>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7feaf0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7fea50>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba780af0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba780aa0>]
+max, n = 1: 3
+min, n = 2: 3
+3
+=================================== i = 9 ======================
+((3, 1), (1, 0))
+MOVES AT n=2
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba785b40>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba785aa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba787640>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba787cd0>]
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba78bfa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba78bcd0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba78ef00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7917d0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7916e0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba794820>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba794780>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7978c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba797820>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba79ac30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba79a960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba79daf0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a15a0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a1fa0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a1d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a4be0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a7370>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a7d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7a7b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7aabe0>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7ad3c0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7addc0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7adbe0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b0c30>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b4460>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b4d20>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b4c30>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b7c80>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b7b40>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b9e10>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7b9d20>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7bf050>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7bcf00>]
+max, n = 1: 3
+MOVES AT n=1
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7424b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba742d70>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba742c80>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba746c30>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba746b90>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba748be0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba748b90>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba74c9b0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba74c910>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba74f960>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba74ff00>]
+MOVES AT n=0
+[<Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba753730>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba753690>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba7556e0>, <Fish.Common.game_tree.GameTreeNode instance at 0x7f6eba755e10>]
+max, n = 1: 3
+min, n = 2: 3
+3

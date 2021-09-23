@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+import sys
+sys.path.insert(1, '../Fish/Common')
+
+from board import Board
+import json
+
+decoder = json.JSONDecoder()
+stdin = sys.stdin.read().strip()
+json_val = decoder.raw_decode(stdin)[0]
+
+rows = len(json_val["board"])
+cols = max([len(row) for row in json_val["board"]])
+board = Board(rows, cols)
+
+for r in range(rows):
+    for c in range(cols):
+        if c >= len(json_val["board"][r]) or json_val["board"][r][c] == 0:
+            board.remove_tile((r, c))
+
+print(len(board.get_reachable(tuple(json_val["position"]), [])))

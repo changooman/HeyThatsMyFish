@@ -1,0 +1,2 @@
+{"count": 21, "seq": [3, true, false, null, "asdf", [34, 45, 34], {"asdfasdf": {"asdfasdf": {"asdf": 23423}}}, {"asdfasdf": 243234325}, 34, 5465, "324234asdfsa", "", "", "", "", "", "", "", "", {}, {"\n": 345}]}
+[21, {"\n": 345}, {}, "", "", "", "", "", "", "", "", "324234asdfsa", 5465, 34, {"asdfasdf": 243234325}, {"asdfasdf": {"asdfasdf": {"asdf": 23423}}}, [34, 45, 34], "asdf", null, false, true, 3]

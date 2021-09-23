@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+
+python Common/Other/tester.py $@
+
+
+
+python Common/Other/tester2.py $@
+
+python Common/Other/tester3.py $@
+
+python Player/Other/strategy_tests.py $@
+
+python Admin/Other/referee_tests.py $@

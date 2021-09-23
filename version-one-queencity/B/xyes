@@ -1,0 +1,55 @@
+#!/usr/bin/env python	
+
+import unittest
+import sys
+import importlib
+
+
+'''
+Thiss function takes user input and will print it infinitely or at a limit of twenty depending on what the user inputs
+@param userinput This is the variable that stores the user input and the function uses
+'''
+def spit(userinput):
+    # If user put nothing as an input, print hello world
+    if userinput == []:
+        print('hello world')
+        return
+
+    # Initalizes and declares limit variable which helps determine how many times to print the userinput
+    limit = False
+    count = 0
+    if type(userinput) is str:
+        userinput = userinput.split(' ')
+
+    # Checks and changes the limit variable to True if user wrote '-limit' as the first command line in their input
+    if userinput[0] == '-limit':
+        userinput.pop(0)
+        limit = True
+
+    # Initializes and declares the final string that is to be printed, concatenating them with the user input
+    finalstring = ''
+    for x in userinput:
+        finalstring = finalstring + x + ' '
+
+    # Print either infinitely or limited based on user command line input
+    if limit == True:
+        while count < 20:
+            print(finalstring)
+            count = count + 1
+        return count
+    else:
+        while limit == False:
+            print(finalstring)
+
+
+# This function serves to run the entire process
+# It takes the input and puts it into the spit function
+def main():
+    # defining userinput
+    userinput = sys.argv
+    userinput.pop(0)
+
+    spit(userinput)
+
+
+main()

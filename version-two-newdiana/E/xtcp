@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+
+import socketserver
+import sys
+import json
+
+
+class JsonRequestHandler(socketserver.BaseRequestHandler):
+    def handle(self):
+        decoder = json.JSONDecoder()
+        encoder = json.JSONEncoder()
+
+        self.request.settimeout(0.1)
+        data = self.request.recv(999999).decode("utf-8").strip()
+
+        json_vals = []
+        while len(data) > 0:
+            val = decoder.raw_decode(data)
+            json_vals.append(val[0])
+            data = data[val[1]:].strip()
+
+        first = encoder.encode({
+            "count": len(json_vals),
+            "seq": json_vals
+        }).encode()
+
+        second = encoder.encode([len(json_vals)] + list(reversed(json_vals))).encode()
+
+        self.request.sendall(first)
+        self.request.sendall(second)
+
+
+class Server(socketserver.TCPServer):
+    def __init__(self, address, timeout):
+        super().__init__(address, JsonRequestHandler)
+        self.timeout = timeout
+
+
+    def handle_timeout(self):
+        super().handle_timeout()
+        exit("Error: timeout")
+
+
+HOST, PORT = "localhost", 4567
+if len(sys.argv) > 1:
+    try:
+        PORT = int(sys.argv[1])
+    except ValueError:
+        exit("Error: invalid port provided")
+
+with Server((HOST, PORT), 3) as server:
+    server.handle_request()

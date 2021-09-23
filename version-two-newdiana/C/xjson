@@ -1,0 +1,24 @@
+#!/usr/bin/python3
+
+import sys
+import json
+
+decoder = json.JSONDecoder()
+encoder = json.JSONEncoder()
+stdin = sys.stdin.read().strip()
+json_vals = []
+
+while len(stdin) > 0:
+    val = decoder.raw_decode(stdin)
+    json_vals.append(val[0])
+    stdin = stdin[val[1]:].strip()
+
+first = encoder.encode({
+    "count": len(json_vals),
+    "seq": json_vals
+})
+
+second = encoder.encode([len(json_vals)] + list(reversed(json_vals)))
+
+print(first)
+print(second)

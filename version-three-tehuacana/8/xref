@@ -1,0 +1,32 @@
+#!/usr/bin/python
+
+import json
+
+import sys
+sys.path.insert(1, '../Fish/Common/Other')
+from fish_json import *
+
+sys.path.insert(1, '../Fish/Admin')
+sys.path.insert(1, '../Fish/Common')
+sys.path.insert(1, '../Fish/Player')
+from referee import Referee
+from board import Board
+from player import Player
+
+json_obj = read_json()
+
+board = Board(json_obj['row'], json_obj['column'], uniform=True, uniform_num_fish=json_obj['fish'])
+names = [p[0] for p in json_obj['players']]
+players = [Player(depth=p[1]) for p in json_obj['players']]
+ref = Referee(players, (5, 5), timeout=60)
+ref.state.board = board
+ref.run()
+
+output = []
+for victor in ref.get_victors():
+    for name, player in zip(names, players):
+        if player is victor:
+            output.append(name)
+output.sort()
+
+print(json.dumps(output))

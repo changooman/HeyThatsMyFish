@@ -1,0 +1,43 @@
+#!/usr/bin/python3
+
+import subprocess
+import unittest
+import json
+
+class TestXjson(unittest.TestCase):
+    def setUp(self):
+        self.process = None
+
+    def test_1_in_json(self):
+        test = open("../Test/1-in.json", "r")
+        self.process = subprocess.Popen(["./../xjson"], stdout=subprocess.PIPE, stdin=test)
+        test.close()
+
+        expected_fd = open("../Test/1-out.json", "r")
+        expected = expected_fd.read()
+        expected_fd.close()
+
+        decoder = json.JSONDecoder()
+        actual = (self.process.stdout.read()).decode("utf-8")
+        json_vals = []
+        while len(actual) > 0:
+            val = decoder.raw_decode(actual)
+            json_vals.append(val[0])
+            actual = actual[val[1]:].strip()
+ 
+        exp_vals = []
+        while len(expected) > 0:
+            val = decoder.raw_decode(expected)
+            exp_vals.append(val[0])
+            expected = expected[val[1]:].strip()
+
+        self.assertEqual(actual, expected)
+
+    def tearDown(self):
+        if self.process is not None:
+            self.process.stdout.close()
+            self.process.kill()
+            self.process.wait()
+
+if __name__ == '__main__':
+    unittest.main()

@@ -1,0 +1,84 @@
+#!/usr/bin/python
+
+import sys
+sys.path.insert(1, '../Fish/Common')
+
+import json
+
+from board import Board
+from board_player import BoardPlayer
+from state import State
+from tile import Tile
+
+decoder = json.JSONDecoder()
+stdin = sys.stdin.read().strip()
+json_val = decoder.raw_decode(stdin)[0]
+
+rows = len(json_val["board"])
+cols = max([len(row) for row in json_val["board"]])
+board = Board(rows, cols)
+
+for r in range(rows):
+    for c in range(cols):
+        if c >= len(json_val["board"][r]) or json_val["board"][r][c] == 0:
+            board.remove_tile((r, c))
+        else:
+            board.tiles[r][c] = Tile(False, json_val["board"][r][c])
+
+players = []
+for p_json in json_val["players"]:
+    p = BoardPlayer(p_json["color"])
+    p.set_score(p_json["score"])
+    for penguin in p_json["places"]:
+        p.add_penguin(tuple(penguin))
+    players.append(p)
+
+state = State(players, board)
+
+if len(players) <= 0 or len(players[0].get_penguins()) <= 0:
+    print("false")
+    sys.exit()
+
+row, col = players[0].get_penguins()[0]
+
+N = (row - 2, col)
+
+if row % 2 == 1:
+    NE = (row - 1, col + 1)
+else:
+    NE = (row - 1, col)
+
+if row % 2 == 1:
+    SE = (row + 1, col + 1)
+else:
+    SE = (row + 1, col)
+
+S = (row + 2, col)
+
+if row % 2 == 0:
+    SW = (row + 1, col - 1)
+else:
+    SW = (row + 1, col)
+
+if row % 2 == 0:
+    NW = (row - 1, col - 1)
+else:
+    NW = (row - 1, col)
+
+moves = [N, NE, SE, S, SW, NW]
+
+move_taken = False
+print((row, col))
+print()
+for move in moves:
+    print(move)
+    if state.valid_move((row, col), move):
+        print('valid')
+        move_taken = True
+        state.move_avatar((row, col), move)
+        break
+
+if not move_taken:
+    print("false")
+else:
+    print(json.dumps(state.json_rep()))

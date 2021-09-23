@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+import sys
+
+if len(sys.argv) > 1 and sys.argv[1] == "-limit":
+    limit = True
+    if len(sys.argv) < 3:
+        string = "hello world"
+    else:
+        string =  ' '.join(sys.argv[2:])
+    for _ in range(20):
+        print(string)
+else:
+    limit = False
+    if len(sys.argv) < 2:
+        string = "hello world"
+    else:
+        string =  ' '.join(sys.argv[1:])
+    while True:
+        print(string)

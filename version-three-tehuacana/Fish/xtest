@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd "${0%/*}"
+
+Common/Other/Test/run_tests.sh
+Player/Other/Test/run_tests.sh
+Admin/Other/Test/run_tests.sh
+Remote/Other/Test/run_tests.sh

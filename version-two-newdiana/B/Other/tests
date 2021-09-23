@@ -1,0 +1,63 @@
+#!/usr/bin/python3
+
+import os
+import subprocess
+import unittest
+
+
+class TestXyes(unittest.TestCase):
+    def setUp(self):
+        self.process = None
+
+
+    def test_hello_world_limit(self):
+        stream = os.popen("./../xyes -limit")
+        self.assertEqual(stream.read(), '\n'.join(["hello world"] * 20) + '\n')
+        stream.close()
+
+
+    def test_limit(self):
+        tests = ["test", "this is a test", "123 abc !@#", "-limit", "./xyes"]
+        for test in tests:
+            stream = os.popen("./../xyes -limit " + test)
+            self.assertEqual(stream.read(), '\n'.join([test] * 20) + '\n')
+            stream.close()
+
+        stream = os.popen("./../xyes -limit a'\n'a")
+        self.assertEqual(stream.read(), '\n'.join(["a\na"] * 20) + '\n')
+        stream.close()
+
+        stream = os.popen("./../xyes -limit a\"\n\"a")
+        self.assertEqual(stream.read(), '\n'.join(["a\na"] * 20) + '\n')
+        stream.close()
+
+
+    def test_hello_world_infinite(self):
+        self.process = subprocess.Popen(["./../xyes"], stdout=subprocess.PIPE)
+        for _ in range(1000):
+            self.assertEqual(self.process.stdout.readline(), b"hello world\n")
+        self.process.stdout.close()
+        self.process.kill()
+        self.process.wait()
+
+
+    def test_infinite(self):
+        tests = ["test", "this is a test", "123 abc !@#", "a -limit", "./xyes"]
+        for test in tests:
+            self.process = subprocess.Popen(["./../xyes", test], stdout=subprocess.PIPE)
+            for _ in range(1000):
+                self.assertEqual(self.process.stdout.readline(), bytes(test + '\n', 'utf-8'))
+            self.process.stdout.close()
+            self.process.kill()
+            self.process.wait()
+
+
+    def tearDown(self):
+        if self.process is not None:
+            self.process.stdout.close()
+            self.process.kill()
+            self.process.wait()
+
+
+if __name__ == '__main__':
+    unittest.main()

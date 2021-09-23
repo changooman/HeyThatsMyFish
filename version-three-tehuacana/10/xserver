@@ -1,0 +1,65 @@
+#!/usr/bin/python
+
+import sys
+import os
+sys.path.insert(1, '../Fish/Common')
+
+import sys
+import socket
+
+import Fish.Remote.server as server
+from Fish.Common.board import Board
+
+LOCALHOST = "127.0.0.1"
+USAGE = "Usage: ./xserver <port>"
+BOARD_DIM = 5
+NUM_FISH = 2
+WAITING_PERIOD = 30.0
+TIMEOUT = 3.0
+
+def exit_main(msg):
+    """Exit the program with the given message."""
+    print(msg)
+    os._exit(0)
+
+def parse_cli():
+    """Parse command line arguments and return the port as an integer"""
+    if len(sys.argv) != 2:
+        exit_main(USAGE)
+
+    try:
+        port = int(sys.argv[1])
+    except ValueError:
+        exit_main(USAGE)
+
+    return port
+
+def run_tournament(port, board):
+    """Run a tournament of Fish over a server. The server uses localhost
+    and the given port to open a connection for clients. If any exception
+    occurs, the server closes and the error is printed to STDOUT.
+    
+    port (int): the port to use to open the server.
+    board (Board): the board to use for this tournament.
+
+    return (tuple): a 3-tuple, where the first element is a list of the names
+        of the winners, the second element is a list of the names of the losers,
+        and the third element is a list of the names of violators
+        (cheating/kicked players). If there are less than MIN_CLIENTS in the
+        game, return None. If an error occurs, the program terminates.
+    """
+    try:
+        return server.run_tournament(LOCALHOST, port, board=board, waiting_period=WAITING_PERIOD, timeout=TIMEOUT)
+    except Exception as e:
+        exit_main("Could not run tournament: {}".format(e))
+
+def main():
+    port = parse_cli()
+    board = Board(BOARD_DIM, BOARD_DIM, uniform=True, uniform_num_fish=NUM_FISH)
+    results = run_tournament(port, board)
+    if results is None:
+        exit_main("Not enough players joined!")
+    exit_main("[{}, {}]".format(len(results[0]), len(results[2])))
+
+if __name__ == "__main__":
+    main()

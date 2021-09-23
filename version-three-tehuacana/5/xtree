@@ -1,0 +1,58 @@
+#!/usr/bin/python
+
+import sys
+sys.path.insert(1, '../Fish/Common')
+sys.path.insert(1, '../Fish/Common/Other')
+
+import json
+
+from fish_json import *
+
+json_obj = read_json()
+state = state_from_json(json_obj["state"])
+from_pos = tuple(json_obj["from"])
+to_pos = tuple(json_obj["to"])
+
+row, col = to_pos
+
+N = (row - 2, col)
+
+if row % 2 == 1:
+    NE = (row - 1, col + 1)
+else:
+    NE = (row - 1, col)
+
+if row % 2 == 1:
+    SE = (row + 1, col + 1)
+else:
+    SE = (row + 1, col)
+
+S = (row + 2, col)
+
+if row % 2 == 0:
+    SW = (row + 1, col - 1)
+else:
+    SW = (row + 1, col)
+
+if row % 2 == 0:
+    NW = (row - 1, col - 1)
+else:
+    NW = (row - 1, col)
+
+adjacent = [N, NE, SE, S, SW, NW]
+
+state.move_avatar(from_pos, to_pos)
+next_player = state.whose_turn()
+possible = []
+for p in next_player.get_penguins():
+    for t in state.get_reachable(p):
+        if t in adjacent:
+            possible.append(((p, t), adjacent.index(t)))
+
+if len(possible) == 0:
+    print("false")
+    sys.exit()
+elif len(possible) > 1:
+    possible.sort(key=(lambda x: (x[1], x[0][0][0], x[0][0][1], x[0][1][0], x[0][1][1])))
+
+print(json.dumps(possible[0][0]))

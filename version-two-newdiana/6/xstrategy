@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+import sys
+sys.path.insert(1, '../Fish/Common')
+sys.path.insert(1, '../Fish/Common/Other')
+sys.path.insert(1, '../Fish/Player')
+
+import json
+
+from fish_json import *
+from strategy import Strategy
+
+json_obj = read_json()
+
+depth = json_obj[0]
+state = state_from_json(json_obj[1])
+strat = Strategy()
+action = strat.make_move(state, depth)
+if action:
+    print(json.dumps(action))
+else:
+    print("false")
+
